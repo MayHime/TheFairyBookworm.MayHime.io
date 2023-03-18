@@ -1,0 +1,35 @@
+#banner{
+	height: 50vh ;
+	background-image: url("../image/.jpg");
+	background-color: rgb(74, 16, 29);
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#banner {
+  background-image: url('your-image-url-here');
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+#banner h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#banner p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+
+	

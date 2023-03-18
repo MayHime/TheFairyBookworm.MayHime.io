@@ -1,0 +1,12 @@
+#header{
+	height: 110px;
+	color: beige;
+	background-color: black; 
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	display: flex;
+	font-family: 'Tangerine' , bold;
+
+}

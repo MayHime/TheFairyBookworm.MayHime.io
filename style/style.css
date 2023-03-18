@@ -1,0 +1,232 @@
+@import"banner.css";
+@import"header.css";
+@import "cards.css";
+@import"footer.css";
+@import"cards2.css";
+@import"cards3.css";
+@import"outside-text";
+@import"outside-text2";
+@import"box";
+@import"box2";
+@import"container";
+@import"audio";
+@import"introduction.css";
+@import"list-inline";
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Overpass+Mono:wght@700&family=Pacifico&family=Parisienne&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Overpass+Mono:wght@700&family=Pacifico&family=Parisienne&family=Tangerine&display=swap');
+ 
+
+body{
+	margin:3px,3px;
+	background-image: url("../image/10.jpg");
+	background-color: black;
+	background-repeat: repeat;
+
+}
+h1
+{
+
+	justify-content: center;
+	text-align: center; 
+
+	font-family: 'Tangerine', cursive;
+	font-size: 54px;
+	line-height: center;
+	position: middle;
+
+}
+h2{
+	color: gold;
+	text-align: center;
+	justify-content: center;
+	text-decoration: italic;
+	
+	height: 140px;
+	font-size: 80px;
+
+	position: middle;
+	justify-content: center;
+	font-family: 'Tangerine', cursive;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 text-align: center;
+}
+.box p{
+	
+	size: 36px;
+	color: black; 
+	text-align: center;
+	
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ .box2 p {
+ 	size: 36px;
+	color: black; 
+	text-align: center;
+	
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ }
+.introdution p{
+
+  color: white; 
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  width: 80px;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  text-align: center;
+  line-height: center;
+  height: 80px;
+
+  
+ 
+ }
+
+h4 {
+	
+	color: gold;
+	font-size: 40px;
+	bottom: 40px;
+
+	font-family: 'Tangerine', cursive;
+	
+
+}
+h3{
+	font-family: 'Tangerine', cursive;
+	font-size: 28px;
+	color: white;
+}
+
+h5{
+	color: white;
+	font-family: 'Tangerine', cursive;
+}
+h6{
+	font-size: 25px;
+	font-family: 'Tangerine', cursive;
+	color: white;
+}
+
+h8{
+	font-size: 45px;
+	font-family: 'Tangerine' , bold;
+	color: black;
+	position: relative;
+	top:200px;
+	text-align: center;
+	justify-content: center;
+
+}
+
+h13{
+	font-size: 40px;
+	font-family: 'Tangerine' , bold;
+	color: black;
+	position: relative;
+	top:200px;
+}
+.card3{
+	size: 2000px, 900px;
+}
+.outside-text{
+	size: 36px;
+}
+.btn-blue {
+	background-color: black;
+	border-radius: 50px;
+	border: 1px solid pink;
+	color: white ;
+	padding: 8px 16px ;
+	font-weight: bold ;
+	transition: 1s ;
+}
+.btn-blue:hover {
+	background-color:  rgb(26, 37, 57);
+	color: pink;
+	transition: 1s ;
+}
+.list-inline li{
+	display: inline ;
+
+}
+.list-inline{
+	padding: 0 ;
+}
+.list-inline a {
+	color: black;
+	font-size: 48px;
+}
+.box {
+   padding: 50px;
+   background-color: 
+    background-position: relative; 
+	left: 320px;
+	bottom: 80px;
+	width: 600px;
+  height: 200px;
+  top:60px;
+background-image:url("../image/writingpaper-2.png") ;
+   background-size: 650px , 450px ;
+   background-position: relative;
+   left: 300px;
+	bottom: 60px;
+	width: 600px;
+  height: 390px;
+  top:50px;
+   padding: 50px;
+   background-repeat: no-repeat;
+ 
+   text-align: center;
+  line-height: 30px;
+  justify-content: relative;
+
+   }
+   .box2{
+   	padding: 50px;
+   	position: relative;
+   	bottom: 60px;
+   left: -1300px;
+    width: 600px;
+  height: 390px;
+  top:50px;
+  color: black;
+  background-image:url("../image/writingpaper-2.png") ;
+   background-size: 650px , 450px ;
+   background-position: relative;
+   left: -1300px;
+	bottom: 100px;
+	width: 600px;
+  height: 370px;
+  top:60px;
+   padding: 50px;
+   background-repeat: no-repeat;
+   text-align: center;
+  line-height: 30px;
+  justify-content: relative;
+  font-size: 20px;
+
+   }
+  
+
+   .list-inline li{
+	display: inline ;
+
+}
+.list-inline{
+	padding: 0 ;
+}
+.list-inline a {
+	color: white;
+	font-size: 45px;
+}

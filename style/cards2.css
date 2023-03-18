@@ -1,0 +1,66 @@
+.cards2{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-gap: 12px;
+	position: relative;
+	top: 20px;
+	bottom: 90px
+	left:-1350px;
+	border-radius: 8px;
+
+
+}
+.card2{
+	background-image: url("../image/.jpg");
+	background-color: rgb(74, 16, 29);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+
+.card2 p {
+  color:  white;
+}
+.card2 img {
+	height:390PX;
+	width:230px ;
+	object-fit: center;
+
+
+}
+.outside-text {
+	color:blue;
+	margin-top: 20px;
+	position: relative;
+	left: 850px;
+	bottom: 250px;
+}
+
+.box {
+  padding: 5px;
+  background-color:;
+  position: relative;
+	left: 300px;
+	top:10px;
+	width: 600px;
+  height: 200px;
+  bottom:70px;
+ 
+background-image:url("../image/writingpaper-2.png") ;
+   background-size: 650px , 450px ;
+   background-position: relative;
+   left: 300px;
+	bottom: 80px;
+	width: 600px;
+  height: 370px;
+  top:80px;
+   padding: 50px;
+   background-repeat: no-repeat;
+ 
+   text-align: center;
+  line-height: 30px;
+  justify-content: relative;
+  font-size: 20px;
+
+}
